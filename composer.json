@@ -1,0 +1,15 @@
+{
+    "name": "mrhmh/sms-rahyab",
+    "authors": [
+        {
+            "name": "Hossein MohammadHosseini",
+            "email": "hmh_1998@yahoo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MrHMH\\SmsRahyab\\": "src/"
+        }
+    }
+}

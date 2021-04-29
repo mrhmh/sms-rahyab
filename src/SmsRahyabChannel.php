@@ -11,7 +11,7 @@ class SmsRahyabChannel
 
     protected $sms;
 
-    public function __construct(RahayabSMS $sms)
+    public function __construct(RESTRahayabSMS $sms)
     {
         $this->sms = $sms;
     }
@@ -44,7 +44,7 @@ class SmsRahyabChannel
 
     protected function sendMessage($mobileNumber, SmsRahyabMessage $message)
     {
-        return $this->sms->send_sms((array)$mobileNumber, (array)$message->content);
+        return $this->sms->sendSms($mobileNumber, $message->content);
     }
 
 

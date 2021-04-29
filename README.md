@@ -26,6 +26,7 @@ Add your Rahyab credential to `config/services.php`:
         'username' => env('SMS_RAHYAB_USERNAME'),
         'password' => env('SMS_RAHYAB_PASSWORD'),
         'sender'   => env('SMS_RAHYAB_SENDER'),
+        'token'    => env('SMS_RAHYAB_TOKEN'),
     ],
 ...
 ```
